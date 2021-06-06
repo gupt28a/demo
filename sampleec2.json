@@ -6,7 +6,7 @@ Resources:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
         - MyExistingSecurityGroup
-      KeyName: jen
+      KeyName: mykey
       ImageId: ami-0101734ab73bd9e15
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
